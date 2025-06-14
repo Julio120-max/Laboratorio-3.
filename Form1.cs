@@ -51,5 +51,45 @@ namespace Laboratorio_3__switch_case
         {
             salirdetodo();
         }
+
+        public void implementar()
+        {
+            switch (cbxalimentacion.SelectedIndex)
+            {
+                case 0:
+                    MessageBox.Show("Consumir: \n1-Yogurt natural .\n2-1 Banano.", " Dia: Lunes.");
+                    break;
+
+                case 1:
+                    MessageBox.Show("Consumir: /n1-Pechuga de pollo. /n2-Espinacas.", "Dia:Martes.");
+                    break;
+
+                case 2:
+                    MessageBox.Show("Consumir: /n1-Filete de pescado. /n2-Brocoli.", "Dia: Miercoles.");
+                    break;
+
+                case 3:
+                    MessageBox.Show("Consumir: /n1- 1 manzana./n2- Gelatina sin azucar ","Dia:Jueves.");
+                    break;
+
+                case 4:
+                    MessageBox.Show("Consumir: /n1-Carne de res. /n2- Ensalada verde", "Dia:Viernes.");
+                    break;
+
+                case 5:
+                    MessageBox.Show("Consumir: /n1-Sopa de lentejeas. n2- Arroz integral", "Dia: Sabado.");
+                    break;
+                case 6:
+                    MessageBox.Show("Consumir: /n1-Pasta con salsa de tomate natural. /n2- Almendras con yogurt", "Dia: Domingo.");
+                    break;
+
+            }
+
+            }
+
+        private void btnalimentacion_Click(object sender, EventArgs e)
+        {
+            implementar();
+        }
     }
 }
