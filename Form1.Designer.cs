@@ -96,6 +96,7 @@
             btnalimentacion.TabIndex = 5;
             btnalimentacion.Text = "Ver plan de alimentación";
             btnalimentacion.UseVisualStyleBackColor = true;
+            btnalimentacion.Click += btnalimentacion_Click;
             // 
             // btnsalir
             // 
