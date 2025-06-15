@@ -82,10 +82,13 @@ namespace Laboratorio_3__switch_case
                 case 6:
                     MessageBox.Show("Consumir: \n1-Pasta con salsa de tomate natural. \n2- Almendras con yogurt", "Dia: Domingo.");
                     break;
+                default:
+                    MessageBox.Show("Por favor seleccione un dia de el plan de alimentación.", "Plan Desconocido.");
+                    break;
 
             }
 
-            }
+        }
 
         private void btnalimentacion_Click(object sender, EventArgs e)
         {
